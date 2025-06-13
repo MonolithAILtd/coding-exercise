@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "refactorable"
+version = "0.1.0"
+description = "FastAPI application"
+authors = ["User"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.3"
+boto3 = "^1.38.33"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
